@@ -1,0 +1,204 @@
+{
+    "floor": 0,
+    "building": "Main Building",
+    "dimensions": {
+        "width": 100,
+        "height": 100
+    },
+    "points_of_interest": [
+        {
+            "name": "Main Entrance",
+            "x": 50,
+            "y": 0,
+            "type": "entrance",
+            "description": "Main Building Entrance"
+        },
+        {
+            "name": "Chemistry Lab",
+            "x": 75,
+            "y": 90,
+            "type": "laboratory",
+            "room_code": "A",
+            "description": "Chemistry Laboratory"
+        },
+        {
+            "name": "Staff Room",
+            "x": 90,
+            "y": 75,
+            "type": "staff",
+            "room_code": "B",
+            "description": "Teaching Staff Room"
+        },
+        {
+            "name": "Principal Office",
+            "x": 90,
+            "y": 25,
+            "type": "admin",
+            "room_code": "C",
+            "description": "Principal's Office"
+        },
+        {
+            "name": "Office Room",
+            "x": 75,
+            "y": 10,
+            "type": "admin",
+            "room_code": "D",
+            "description": "Administrative Office"
+        },
+        {
+            "name": "Exam Controller Office",
+            "x": 50,
+            "y": 10,
+            "type": "admin",
+            "room_code": "E",
+            "description": "Examination Control Room"
+        },
+        {
+            "name": "Microcontroller Lab",
+            "x": 25,
+            "y": 10,
+            "type": "laboratory",
+            "room_code": "F",
+            "description": "Microcontroller Laboratory"
+        },
+        {
+            "name": "Server Room",
+            "x": 10,
+            "y": 10,
+            "type": "technical",
+            "room_code": "G",
+            "description": "IT Server Room"
+        },
+        {
+            "name": "Python Lab",
+            "x": 10,
+            "y": 25,
+            "type": "laboratory",
+            "room_code": "H",
+            "description": "Python Programming Laboratory"
+        },
+        {
+            "name": "Staff Room 2",
+            "x": 10,
+            "y": 75,
+            "type": "staff",
+            "room_code": "I",
+            "description": "Teaching Staff Room"
+        },
+        {
+            "name": "Electrical Lab",
+            "x": 10,
+            "y": 90,
+            "type": "laboratory",
+            "room_code": "J",
+            "description": "Electrical Engineering Laboratory"
+        },
+        {
+            "name": "Female Washroom",
+            "x": 25,
+            "y": 90,
+            "type": "facility",
+            "room_code": "K",
+            "description": "Female Washroom"
+        },
+        {
+            "name": "Male Washroom",
+            "x": 50,
+            "y": 90,
+            "type": "facility",
+            "room_code": "L",
+            "description": "Male Washroom"
+        }
+    ],
+    "walkable_paths": [
+        {
+            "start": {"x": 50, "y": 0},
+            "end": {"x": 50, "y": 10},
+            "type": "corridor"
+        },
+        {
+            "start": {"x": 10, "y": 10},
+            "end": {"x": 25, "y": 10},
+            "type": "corridor"
+        },
+        {
+            "start": {"x": 25, "y": 10},
+            "end": {"x": 50, "y": 10},
+            "type": "corridor"
+        },
+        {
+            "start": {"x": 50, "y": 10},
+            "end": {"x": 75, "y": 10},
+            "type": "corridor"
+        },
+        {
+            "start": {"x": 90, "y": 10},
+            "end": {"x": 90, "y": 25},
+            "type": "corridor"
+        },
+        {
+            "start": {"x": 90, "y": 25},
+            "end": {"x": 90, "y": 75},
+            "type": "corridor"
+        },
+        {
+            "start": {"x": 90, "y": 75},
+            "end": {"x": 90, "y": 90},
+            "type": "corridor"
+        },
+        {
+            "start": {"x": 75, "y": 90},
+            "end": {"x": 50, "y": 90},
+            "type": "corridor"
+        },
+        {
+            "start": {"x": 50, "y": 90},
+            "end": {"x": 25, "y": 90},
+            "type": "corridor"
+        },
+        {
+            "start": {"x": 25, "y": 90},
+            "end": {"x": 10, "y": 90},
+            "type": "corridor"
+        },
+        {
+            "start": {"x": 10, "y": 90},
+            "end": {"x": 10, "y": 75},
+            "type": "corridor"
+        },
+        {
+            "start": {"x": 10, "y": 75},
+            "end": {"x": 10, "y": 25},
+            "type": "corridor"
+        },
+        {
+            "start": {"x": 10, "y": 25},
+            "end": {"x": 10, "y": 10},
+            "type": "corridor"
+        },
+        {
+            "start": {"x": 50, "y": 0},
+            "end": {"x": 25, "y": 90},
+            "type": "corridor",
+            "description": "Direct path to Female Washroom"
+        },
+        {
+            "start": {"x": 50, "y": 0},
+            "end": {"x": 50, "y": 90},
+            "type": "corridor",
+            "description": "Direct path to Male Washroom"
+        },
+        {
+            "start": {"x": 25, "y": 90},
+            "end": {"x": 50, "y": 0},
+            "type": "corridor",
+            "description": "Direct path from Female Washroom"
+        },
+        {
+            "start": {"x": 50, "y": 90},
+            "end": {"x": 50, "y": 0},
+            "type": "corridor",
+            "description": "Direct path from Male Washroom"
+        }
+    ]
+}
